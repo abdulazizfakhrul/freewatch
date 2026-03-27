@@ -24,7 +24,7 @@ fs.copyFileSync(
 );
 
 // Buat uv.config.js dengan URL bare server kamu
-const bareUrl = process.env.BARE_SERVER_URL || 'https://freewatch-bare.NAMAKAMU.workers.dev';
+const bareUrl = process.env.BARE_SERVER_URL || 'https://freewatch-bare.abdulazizfakhrul-aaf.workers.dev';
 
 const uvConfig = `
 self.__uv$config = {
